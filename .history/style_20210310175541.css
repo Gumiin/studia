@@ -1,0 +1,36 @@
+p{
+    background-color: aqua;
+    font-size: 12px;
+}
+strong{
+    color: red;
+}
+div{
+    background-color: rosybrown;
+    margin: 10px;
+    border-bottom: 2px solid black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    /*top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;*/
+}
+#a1{
+    background-color: blue;
+}
+#a2{
+    background-color: chartreuse;
+    top: 0px;
+    right: 0px;
+}
+#a3{
+    background-color: crimson;
+    bottom: 0px;
+    left: 0px;
+}
+#a5{
+    background-color: darkgreen;
+    position :right;
+}

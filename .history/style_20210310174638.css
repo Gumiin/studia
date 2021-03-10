@@ -1,0 +1,15 @@
+p{
+    background-color: aqua;
+    font-size: 12px;
+}
+strong{
+    color: red;
+}
+div{
+    background-color: rosybrown;
+    margin: 10px;
+    border-bottom: 2px solid black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
