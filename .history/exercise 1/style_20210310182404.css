@@ -1,6 +1,6 @@
 body{
     width: 100%;
-    height: 500px;
+    height: 100%;
     border: 0px;
     margin:0px;
     padding:0px;
@@ -8,39 +8,32 @@ body{
 #all{
     margin-left: 25%;
     width: 50%;
-    height: 500px;
 }
 #baner{
     background-color: blue;
     width: 100%;
-    height: 15%;
 }
 #middle_content{
     background-color: blueviolet;
     width: 100%;
-    height: 70%;
 }
 #m_left{
     background-color: brown;
     width: 33.3%;
     float: left;
-    height: 100%;
 }
 #m_middle{
     background-color: chartreuse;
     width: 33.3%;
     float: left;
-    height: 100%;
 }
 #m_right{
     background-color: #aaffaa;
     position: relative;
     width: 33.3%;
     float: left;
-    height: 100%;
 }
 #footer{
     background-color: cornflowerblue;
-    width: 100%;
-    height: 15%;
+    width: 50%;
 }
