@@ -1,0 +1,15 @@
+body{
+    margin:0px
+}
+#header-bar{
+    height: 8px;
+    background-color: black;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #888;
+}
+#news{
+    display: flex;
+}
