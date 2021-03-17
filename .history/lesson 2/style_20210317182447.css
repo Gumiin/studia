@@ -81,19 +81,11 @@ body{
     display: flex;
     justify-content: center;
     padding-top: 40px;
+    padding-bottom: 20px;
     text-align: center;
 }
 #help1{
-    border-bottom: 1px solid #888;
-    padding-left: 40px;
-}
-#help2{
-    border-bottom: 1px solid #888;
-    padding-left: 40px;
-}
-#help3{
-    border-bottom: 1px solid #888;
-    padding-left: 40px;
+
 }
 #footer{
     background-color: #252627;

@@ -10,18 +10,11 @@ body{
     height: 8px;
     background-color: #252627;
 }
-#logo2{
-    padding-top: 40px;
-}
 #header{
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
     border-bottom: 1px solid #888;
-}
-#navigation{
-    padding-top: 15px;
 }
 #navigation a{
     text-decoration: none;
@@ -33,17 +26,17 @@ body{
     border-bottom: 1px solid #888;
 }
 #news1 p{
-    text-align: left;
+    text-align: center;
 }
 #news2 p{
-    text-align: left;
+    text-align: center;
 }
 #circles{
+
     display: flex;
     justify-content: center;
-    padding-top: 40px;
     padding-bottom: 20px;
-    text-align: center;
+    border-bottom: 1px solid #888;
 }
 #circle1{
     background-color:  #5094d8;
@@ -76,24 +69,6 @@ body{
 }
 #circle3:hover{
     opacity: 0.85;
-}
-#helps{
-    display: flex;
-    justify-content: center;
-    padding-top: 40px;
-    text-align: center;
-}
-#help1{
-    border-bottom: 1px solid #888;
-    padding-left: 40px;
-}
-#help2{
-    border-bottom: 1px solid #888;
-    padding-left: 40px;
-}
-#help3{
-    border-bottom: 1px solid #888;
-    padding-left: 40px;
 }
 #footer{
     background-color: #252627;
