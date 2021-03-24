@@ -44,6 +44,7 @@ body{
     padding-top: 40px;
     padding-bottom: 20px;
     text-align: center;
+    padding-top: auto;
 }
 #circle1{
     background-color:  #5094d8;
