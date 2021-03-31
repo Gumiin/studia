@@ -1,0 +1,11 @@
+body{
+    background-image: url(tlo.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    width: 460px;
+}
+#logo{
+height: ;
+}

@@ -1,0 +1,13 @@
+body{
+    background-color: #fff;
+    background-image: url(/lab3/layer51/tlo.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    width: 460px;
+    min-height: 100vh;
+}
+#logo{
+
+}
