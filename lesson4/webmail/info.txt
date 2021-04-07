@@ -1,0 +1,59 @@
+FONTY
+
+całość: sans-serif (domyślnie: arial). 
+
+Właściwość stylów do ustawienia czcionki: font-family: Arial,sans-serif;
+
+
+
+WIELKOŚCI/KOLORY/ATRYBUTY DODATKOWE
+
+Panel lewy (menu):
+
+Szerokość: 150px
+
+Wysokość: 100%
+
+Kolor tła: #252a3a
+
+Przycisk compose: zaokrąglenie rogów 20px, margines wewn. 8px 16px, margines: 16px 0l kolor tła #1B98F8
+
+Font: 16px (wielkość domyślna w przeglądarkach), white
+
+
+
+Lista maili:
+
+Szerokość: 350px;
+
+Wysokość: 100% okna przeglądarki (panel przewijany ze sliderem pionowym niezależnym od reszty strony)
+
+Pojedynczy wpis: marginesy wewn. 14px 16px;
+
+Avatary: kwadrat 42px, zaokrąglenie rogów 3px, margines prawy 8px
+
+Tło pierwszego maila (hover): #eee;
+
+Lewe obramowanie 2. i 3. maila: 6px, #1B98F8
+
+Pole imię nazwisko: 13px, #999, css: text-transformation: uppercase (małe->wielkie litery)
+
+Pole tytułowe: 16px, black
+
+Pole zajawki maila: 13px, black, margines: 7px 0
+
+
+
+Pole treści maila:
+
+Szerokość: pozostała część okna przeglądarki
+
+Wysokość: wg treści
+
+Tytuł: 32px, black
+
+Info pod tytułem: 16px, black i #999 i niebieski #1b98f8;
+
+Treść: 16px; margines 16px 0
+
+Przyciski: Reply, Forward, Move to: 16px, #666, margines wewn. 6px 26px
