@@ -1,0 +1,25 @@
+body{
+    max-width: 500px;
+    margin:auto;
+    font-family: Arial, sans-serif;
+}
+#menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#menu{
+    background-color: #252a3a;
+    font: 16px;
+}
+.menu{
+    background-color: burlywood;
+}
+#compose{
+    background-color:#1B98F8;
+}
+#mails{
+    background-color: cadetblue;
+}
+#mails:hover{
+    background-color: cyan;
+}

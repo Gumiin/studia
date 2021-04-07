@@ -29,23 +29,16 @@ body{
     margin-left: 40%;
     border-radius: 20px;
 }
-.menu{
-    margin-left: 2%;
-    margin-right: 2%;
-    padding: 2%;
-}
-.menu:hover{
-    background-color: orchid;
-}
-#labels{
-    margin-left: 2%;
-    padding-bottom: 5%;
-}
 .label{
     background-color: orangered;
     border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
     display: inline-block;
-    padding: 6px 6px;
-    border-radius: 3px;
-    margin-left:4%;
+    font-size: 16px;
+    padding: 8px 16px;
+    margin-left: 40%;
+    border-radius: 20px;
 }

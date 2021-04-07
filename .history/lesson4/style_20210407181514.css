@@ -31,15 +31,6 @@ body{
 }
 .menu{
     margin-left: 2%;
-    margin-right: 2%;
-    padding: 2%;
-}
-.menu:hover{
-    background-color: orchid;
-}
-#labels{
-    margin-left: 2%;
-    padding-bottom: 5%;
 }
 .label{
     background-color: orangered;
@@ -47,5 +38,5 @@ body{
     display: inline-block;
     padding: 6px 6px;
     border-radius: 3px;
-    margin-left:4%;
+    margin-left:5%;
 }

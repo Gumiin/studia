@@ -33,13 +33,10 @@ body{
     margin-left: 2%;
     margin-right: 2%;
     padding: 2%;
-}
-.menu:hover{
-    background-color: orchid;
+    background-color: orangered;
 }
 #labels{
     margin-left: 2%;
-    padding-bottom: 5%;
 }
 .label{
     background-color: orangered;
