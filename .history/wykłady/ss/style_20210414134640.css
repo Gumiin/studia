@@ -1,0 +1,10 @@
+body{
+    background-color: #ccc;
+}
+Main{
+    margin: 0 auto;
+    background:#fff;
+    width: 1200px;
+    height: 800px;
+    display: grid;
+}
