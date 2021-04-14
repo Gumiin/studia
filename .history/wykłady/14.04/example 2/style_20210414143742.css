@@ -5,7 +5,7 @@ main{
     margin: 0 auto;
     background:#fff;
     /*height: 800px;*/
-    width: 1200px;
+    width: 2000px;
     display: grid;
     /* grid-template-columns: 200px 800px 200px;
     grid-template-rows: 200px 600px 200px; */
@@ -14,8 +14,8 @@ main{
     /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
     /* grid-template-columns: 2fr 1fr 1fr 1fr 2fr; */
     /* grid-template-columns: 200px 1fr 1fr 1fr 200px; */
-    grid-template-columns: repeat(5, 200px);
-    grid-auto-rows: 200px;
+    grid-template-columns: repeat(5, 400px);
+    grid-auto-rows: 400px;
     grid-auto-flow: row;
 
 }

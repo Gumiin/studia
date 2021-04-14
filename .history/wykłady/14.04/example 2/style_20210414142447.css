@@ -1,0 +1,20 @@
+body{
+    background-color: #ccc;
+}
+main{
+    margin: 0 auto;
+    background:#fff;
+    /*height: 800px;*/
+    width: 1200px;
+    display: grid;
+    /* grid-template-columns: 200px 800px 200px;
+    grid-template-rows: 200px 600px 200px; */
+    /*grid-auto-rows: 400px;*/
+    /* grid-template-columns: 20% 20% 20% 20% 20%; */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+main img{
+    width: 100px;
+    height: 100px;
+}

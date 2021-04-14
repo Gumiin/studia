@@ -16,15 +16,12 @@ main{
     /* grid-template-columns: 200px 1fr 1fr 1fr 200px; */
     grid-template-columns: repeat(5, 200px);
     grid-auto-rows: 200px;
-    grid-auto-flow: row;
 
 }
 main span{
     background-color: red;
 }
-main img{
-    /* width: 100px;
-    height: 100px; */
-    align-self: start;
-    justify-self: start;
-}
+/* main img{
+    width: 100px;
+    height: 100px;
+} */

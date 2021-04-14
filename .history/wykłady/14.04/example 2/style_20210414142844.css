@@ -14,17 +14,10 @@ main{
     /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
     /* grid-template-columns: 2fr 1fr 1fr 1fr 2fr; */
     /* grid-template-columns: 200px 1fr 1fr 1fr 200px; */
-    grid-template-columns: repeat(5, 200px);
-    grid-auto-rows: 200px;
-    grid-auto-flow: row;
+    grid-template-columns: repeat(5, 1fr);
 
 }
-main span{
-    background-color: red;
-}
 main img{
-    /* width: 100px;
-    height: 100px; */
-    align-self: start;
-    justify-self: start;
+    width: 100px;
+    height: 100px;
 }
