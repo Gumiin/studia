@@ -90,3 +90,12 @@ desktopy< 1400 */
         grid-template-columns: 400px 800px 400px;
     }
 }
+@media  and (min-wdth: 400px) and (max-wdth: 768px) {
+
+}
+@media  and (min-wdth: 768px) and (max-wdth: 1200px) {
+
+}
+@media  and (min-wdth: 1400px){
+
+}

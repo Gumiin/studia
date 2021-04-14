@@ -5,7 +5,12 @@ body{
 main{
     margin: 0 auto;
     background:#fff;
+    /*height: 800px;*/
+    width: 1200px;
     display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 200px 600px 200px;
+    /* grid-auto-rows: 400px; */
     grid-template-areas:
         "header"
         "lside"
@@ -50,43 +55,25 @@ tablet poiom i malestare brzydkie ekrany< 1200
 desktopy< 1400 */
 
 @media screen and (min-width: 576px) {
-    main{
-        grid-template-columns: auto;
-        grid-template-areas:
-            "header"
-            "lside"
-            "main"
-            "rside"
-            "footer";
-        }
+
 }
 @media screen and (min-width: 768px) {
-    main{
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas:
-            "header header"
-            "lside rside"
-            "main main"
-            "footer footer";
-        }
+
 }
 @media screen and (min-width: 992px) {
-    main{
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas:
-            "header header header"
-            "lside main rside"
-            "footer footer footer";
-        }
+
 }
 @media screen and (min-width: 1200px) {
     main{
         grid-template-columns: 200px 800px 200px;
         grid-template-rows: 200px 600px 200px;
+        /*grid-auto-rows: 400px;*/
+        grid-template-areas:
+            "header header header"
+            "lside main rside"
+            "footer footer footer";
     }
 }
 @media screen and (min-width: 1400px) {
-    main{
-        grid-template-columns: 400px 800px 400px;
-    }
+
 }

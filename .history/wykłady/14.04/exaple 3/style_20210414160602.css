@@ -5,7 +5,12 @@ body{
 main{
     margin: 0 auto;
     background:#fff;
+    /*height: 800px;*/
+    width: 1200px;
     display: grid;
+    /* grid-template-columns: auto;
+    grid-template-rows: auto; */
+    /* grid-auto-rows: 400px; */
     grid-template-areas:
         "header"
         "lside"
@@ -51,7 +56,6 @@ desktopy< 1400 */
 
 @media screen and (min-width: 576px) {
     main{
-        grid-template-columns: auto;
         grid-template-areas:
             "header"
             "lside"
