@@ -67,19 +67,15 @@ main{
 }
 .mail{
     padding: 14px 16px;
-    height: 100px;
 }
 img{
     max-height: 42px;
 }
-.avatar{
+.small_box{
+    max-height: 100%px;
     max-width: 60px;
-    height: 100%;
     margin-right: 8px;
-    float:left;
-}
-.text{
-    float:left;
+
 }
 .sender{
     color:#999;
@@ -105,9 +101,6 @@ img{
 content{
     grid-template-areas:content;
     background:orange;
-    height: auto;
-    width: 100%;
-    font-size: 32px;
 }
 @media screen and (min-width: 576px) {
 

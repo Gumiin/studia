@@ -60,54 +60,18 @@ main{
     margin-left:4%;
 }
 #mails{
+    grid-template-areas:list;
+    background:grey;
     display: grid;
     grid-template-areas:mails;
     grid-template-rows: auto;
-    color: black;
 }
 .mail{
-    padding: 14px 16px;
-    height: 100px;
-}
-img{
-    max-height: 42px;
-}
-.avatar{
-    max-width: 60px;
-    height: 100%;
-    margin-right: 8px;
-    float:left;
-}
-.text{
-    float:left;
-}
-.sender{
-    color:#999;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size:  13px;
-    border:0px;
-    margin:0px;
-}
-.title{
-    font-weight: bold;
-    font-size:  16px;
-    border:0px;
-    margin:0px;
-}
-.messenge{
-    font-size:  13px;
-    text-transform: none;
-    margin: 7px 0;
-    border:0px;
-    margin:0px;
+    border-image-width: 50%;
 }
 content{
     grid-template-areas:content;
     background:orange;
-    height: auto;
-    width: 100%;
-    font-size: 32px;
 }
 @media screen and (min-width: 576px) {
 
