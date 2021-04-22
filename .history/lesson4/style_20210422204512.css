@@ -98,8 +98,9 @@ img{
 .messenge{
     font-size:  13px;
     text-transform: none;
-    margin: 7px 0;
+    margin: 7px;
     border:0px;
+    margin:0px;
 }
 content{
     grid-template-areas:content;
