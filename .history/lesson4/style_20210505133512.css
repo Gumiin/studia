@@ -1,0 +1,125 @@
+body{
+    margin: 0px;
+    border: 0px;
+    max-width: 639px;
+    height:100%;
+    margin:auto;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: cadetblue;
+}
+main{
+    margin: 0 auto;
+    background:#fff;
+    display: grid;
+    grid-template-areas:
+        "navigation"
+        "mails"
+        "content";
+}
+#menus{
+    background-color: #252a3a;
+    font-size: 16px;
+    grid-template-areas:navigation;
+}
+#menus a{
+    text-decoration: none;
+    color: white;
+}
+
+#compose{
+    background-color: #1B98F8;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 8px 16px;
+    margin-left: 40%;
+    border-radius: 20px;
+}
+.menu{
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;
+}
+.menu:hover{
+    background-color: orchid;
+}
+#labels{
+    margin-left: 2%;
+    padding-bottom: 5%;
+}
+.label{
+    border: none;
+    display: inline-block;
+    padding: 6px 6px;
+    border-radius: 3px;
+    margin-left:4%;
+}
+#mails{
+    display: grid;
+    grid-template-areas:mails;
+    grid-template-rows: auto;
+    color: black;
+}
+.mail{
+    padding: 14px 16px;
+    height: 100px;
+}
+img{
+    max-height: 42px;
+}
+.avatar{
+    max-width: 60px;
+    height: 100%;
+    margin-right: 8px;
+    float:left;
+}
+.text{
+    float:left;
+}
+.sender{
+    color:#999;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:  13px;
+    border:0px;
+    margin:0px;
+}
+.title{
+    font-weight: bold;
+    font-size:  16px;
+    border:0px;
+    margin:0px;
+}
+.messenge{
+    font-size:  13px;
+    text-transform: none;
+    margin: 7px 0;
+    border:0px;
+}
+content{
+    grid-template-areas:content;
+    background:orange;
+    height: auto;
+    width: 100%;
+    font-size: 32px;
+}
+@media screen and (min-width: 576px) {
+
+}
+@media screen and (min-width: 768px) {
+
+}
+@media screen and (min-width: 992px) {
+
+}
+@media screen and (min-width: 1200px) {
+
+}
+@media screen and (min-width: 1400px) {
+
+}
