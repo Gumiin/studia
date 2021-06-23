@@ -1,0 +1,86 @@
+#nav {
+    display: none;
+}
+
+.fb-33,
+.fb-50,
+.fb-66,
+.fb-25,
+.fb-75,
+.fb-100 {
+    width: 100%;
+}
+
+
+
+img {
+    border-width: 0px;
+}
+
+.foot-right {
+    float: left;
+    width: 100%;
+    justify-content: center;
+}
+
+.foot-left {
+    width: 100%;
+    justify-content: center;
+}
+#b{
+    font-weight: bold;
+}
+.af::before{
+    content: "->";
+    color: #FF8000;
+    background: none;
+}
+.af {
+    font-weight: bold;
+    color: black;
+    font-style: normal;
+}
+
+.af:hover {
+    color: #FF8000;
+    background: none;
+}
+#nav-small {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#head-icon-link {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.x{
+    color: #FF8000;
+}
+aside {
+    border-top: 1px inset #FFF;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+h2::after{
+    content: ".";
+    color: #FF8000;
+    
+}
+.am::after{
+    content: ".";
+    color: #FF8000;
+}
+     .fb-50:hover{
+            opacity: 0.6;
+            transition: all 250ms ease-in-out;
+            cursor: pointer;
+            
+        }
+        .fb-100:hover{
+            
+            opacity: 0.6;
+            transition: all 250ms ease-in-out;
+            cursor: pointer;
+        }

@@ -1,0 +1,53 @@
+body{
+    background-image: url(tlo.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: center;
+    color:#abb; 
+}
+main{
+    text-align: center;
+    width:440px;
+    margin:40px auto;
+    font-family: Tahoma, Arial, sans-serif;
+}
+header span{
+    text-transform: uppercase;
+}
+header{
+    font-size: 12px;
+}
+section{
+    display: flex;
+    background-color:white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding:5px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+section img{
+    margin:3px;
+}
+#number{
+    font-weight: 400;
+}
+article p{
+    font-size: 12px;
+    text-align: justify;
+    border-top: 1px #abb solid;
+    line-height: 22px;
+    padding-top: 15px;
+}
+article p a{
+    text-decoration: none;
+    color:#abb;
+    border-bottom: 1px #abb dotted;
+    padding-bottom: 2px;
+}
+footer{
+    margin-top:40px;
+    font-size: 9px;
+    color:#999;
+}

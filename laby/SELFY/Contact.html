@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <link rel="stylesheet" type="text/css" href="StyleSmall.css">
+    <link rel="stylesheet" type="text/css" href="StyleLarge.css">
+    <title>Contact</title>
+</head>
+
+<body>
+
+
+    <header>
+        <a id="head-icon-link" href="index.html"><img class="head-icon" src="images/logo.png" /></a>
+        <nav id="nav">
+            <div class="nav-flex-el"><a href="index.html">Home</a></div>
+            <div class="nav-flex-el"><a href="about.html">About</a></div>
+            <div class="nav-flex-el"><a href="styles.html">Styles</a></div>
+            <div class="nav-flex-el"><a href="gallery.html">Gallery</a></div>
+            <div class="nav-flex-el"><a href="blog.html">Blog</a></div>
+            <div class="nav-flex-el"><a class="active" href="contact.html">Contact</a></div>
+        </nav>
+       <select id="nav-small" onchange="self.location.href = this.value"><option value="index.html">Home</option><option value="about.html">About</option><option value="Styles.html">Styles</option><option value="gallery.html">Gallery</option><option value="Blog.html">Blog</option><option value="Contact.html">Contact</option></select>
+    </header>
+    <hr class="--clear">
+    <div class="main-container">
+        <div class="main-content">
+            <div>
+                <h1> Contact Me </h1>
+                <p class="lead">Praesent commodo cursus magna, venenatis vestibulum. Donec id elit non mi porta gravida at eget vel scelerisl consectetur etsie.</p>
+                <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla.</p>
+            </div>
+
+            <form id="contactform" action="#" method="get">
+                <input type="text" id="name" name="name" placeholder="What's your name">
+                <input type="email" id="email" name="email" placeholder="Email goes here">
+                <textarea id="message" name="message" placeholder="Whats this about?"></textarea>
+
+                <input name="button" class="btn" type="submit" value="Send Message" id="send"><br>
+            </form>
+
+        </div>
+
+        <aside class="right-aside">
+            <h2>Networks</h2>
+
+            <ul>
+                <li> <a href="post.html"> Follow Me on Facebook</a> </li>
+                <li> <a href="post.html">Hanging out on Dribbble</a></li>
+                <li> <a href="post.html">Tweeting up a storm.</a></li>
+            </ul>
+
+            <hr>
+
+            <p>Vestibulum id ligula porta felis euismod semper. Maecenas sed diam eget risus varius blandit sit ametr nulla non metus auctor fringilla.</p>
+
+            <a class="af" href="styles.html">See the full theme styles</a>
+        </aside>
+    </div>
+
+  <footer class="--clear">
+        <hr>
+        <div class="foot-right">
+            <a href="#" class="social-link"><img src="images/icon-facebook.png" alt="Facebook"></a>
+            <a href="#" class="social-link"><img src="images/icon-twitter.png" alt="Facebook"></a>
+            <a href="#" class="social-link"><img src="images/icon-linkedin.png" alt="Facebook"></a>
+        </div>
+        <div class="foot-left">
+            <a href="index.html"><img class="foot-icon" src="images/logo.png" /></a>
+            © Copyright Selfy 2021
+        </div>
+    </footer>
+</body>
+
+</html>

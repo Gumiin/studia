@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mail mobile part</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+    <navigation id="menus" style="grid-area:menus;">
+        <p id="menup">Menu</p>
+        <a href=""><div id="compose">Compose</div></a>
+        <nav>
+            <a href=""><div id="menu">Inbox<span style="color:grey">(2)</span></div></a>
+            <a href=""><div id="menu">Important</div></a>
+            <a href=""><div id="menu" class="active">Sent</div></a>
+            <a href=""><div id="menu">Drafts</div></a>
+            <a href=""><div id="menu">Trash</div></a>
+        </nav>
+        <div id="labels">
+            <p style="color: blueviolet;">LABELS</p>
+            <p>
+                <div class="label"style="background-color: yellow;"></div>
+            Private
+            </p>
+            <p>
+                <div class="label" style="background-color: blue;"></div>
+            Job
+            </p>
+            <p>
+                <div class="label" style="background-color: green;"></div>
+            Flights
+            </p>
+        </div>
+    </navigation>
+    <div id="mails" style="grid-area:mails;" >
+        <div class="mail">
+            <div class="avatar">
+                <img src="./webmail/avatary/p1.png" alt="Avatar"/>
+            </div>
+            <div class="text">
+                <p class="sender">may june</p>
+                <p class="title">New York New Yoork</p>
+                <p class="messenge">Hey, confim our meeting today, Fifth Avenue. Hmmm? </p>
+            </div>
+        </div>
+        <div class="mail active">
+            <div class="avatar">
+                <img src="./webmail/avatary/p2.png" alt="Avatar"/>
+            </div>
+            <div class="text">
+                <p class="sender">may june</p>
+                <p class="title">New York New Yoork</p>
+                <p class="messenge">Hey, confim our meeting today, Fifth Avenue. Hmmm? </p>
+            </div>
+        </div><div class="mail active">
+            <div class="avatar">
+                <img src="./webmail/avatary/p3.png" alt="Avatar"/>
+            </div>
+            <div class="text">
+                <p class="sender">may june</p>
+                <p class="title">New York New Yoork</p>
+                <p class="messenge">Hey, confim our meeting today, Fifth Avenue. Hmmm? </p>
+            </div>
+        </div><div class="mail">
+            <div class="avatar">
+                <img src="./webmail/avatary/p4.png" alt="Avatar"/>
+            </div>
+            <div class="text">
+                <p class="sender">may june</p>
+                <p class="title">New York New Yoork</p>
+                <p class="messenge">Hey, confim our meeting today, Fifth Avenue. Hmmm? </p>
+            </div>
+        </div><div class="mail">
+            <div class="avatar">
+                <img src="./webmail/avatary/p5.png" alt="Avatar"/>
+            </div>
+            <div class="text">
+                <p class="sender">may june</p>
+                <p class="title">New York New Yoork</p>
+                <p class="messenge">Hey, confim our meeting today, Fifth Avenue. Hmmm? </p>
+            </div>
+        </div><div class="mail">
+            <div class="avatar">
+                <img src="./webmail/avatary/p6.png" alt="Avatar"/>
+            </div>
+            <div class="">
+                <p class="sender">may june</p>
+                <p class="title">New York New Yoork</p>
+                <p class="messenge">Hey, confim our meeting today, Fifth Avenue. Hmmm? </p>
+            </div>
+        </div>
+    </div>
+        <div id='read-mail' style="grid-area:readm;">
+            <div class='mail-title'>
+                <div>
+                    <div class='mail-subject'>
+                        Aliquam ac feugiat dolor
+                    </div>
+                    <div class='mail-from'>
+                        From <a href='#' class='from'>Eno Uqa</a> at
+                        <span class='date'>13 16pm, May 8, 2015</span>
+                    </div>
+                </div>
+                <div class='buttons'>
+                    <button type='button' class='btn'>Reply</button>
+                    <button type='button' class='btn'>Forward</button>
+                    <button type='button' class='btn'>Move to</button>
+                </div>
+            </div>
+            <div class='mail-text'>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum diam ex, tempor sed sagittis
+                    eget, tincidunt eu urna. In libero mauris, aliquet ac iaculis at, molestie vel sem. Aenean aliquam
+                   igula. Pellentesque eleifend orci vel ultricies vehicula. Fusce imperdiet tincidunt egestas. Ut id
+                    ipsum non ex sagittis convallis quis vel dui.
+                    <br><br>
+                    Nec rutrum id, eleifend vitae arcu. Class aptent taciti sociosqu ad litora torquent
+                    per conubia nostra, per inceptos himenaeos. Integer ac turpis sed neque porta consequat vel quis
+                    ligula. Pellentesque eleifend orci vel ultricies vehicula. Fusce imperdiet tincidunt egestas. Ut id
+                    ipsum non ex sagittis convallis quis vel dui.
+                    <br><br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum diam ex, tempor sed sagittis
+                    eget, tincidunt eu urna. In libero mauris, aliquet ac iaculis at, molestie vel sem. Aenean aliquam
+                   risus, maximus nec rutrum id, eleifend vitae arcu. Class aptent taciti sociosqu ad litora torquent
+                    per conubia nostra, per inceptos himenaeos. Integer ac turpis sed neque porta consequat vel quis
+                    ligula. Pellentesque eleifend orci vel ultricies vehicula. Fusce imperdiet tincidunt egestas. Ut id
+                    ipsum non ex sagittis convallis quis vel dui.
+                    <br><br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum diam ex, tempor sed sagittis
+                    eget, tincidunt eu urna. In libero mauris, aliquet ac iaculis at, molestie vel sem. Aenean aliquam
+                    volutpat tortor id pellentesque. Sed nec fringilla sem, sit amet efficitur neque. Nulla euismod nibh
+
+                    <br><br>
+                   ipsum non ex sagittis convallis quis vel dui.
+                </p>
+            </div>
+        </div>
+</main>
+</body>
+</html>

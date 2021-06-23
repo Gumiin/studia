@@ -1,0 +1,42 @@
+div{
+    position: absolute;
+}
+#header{
+    height:10vh;
+    top:0;
+    left:0;
+    right:0;
+    background: red;
+}
+#left{
+    height:80vh;
+    top:10vh;
+    left:0;
+    width:20vw;
+    background: blue;
+
+}
+#right{
+    height:80vh;
+    top:10vh;
+    right:0;
+    width:20vw;
+    background: green;
+
+}
+#mid{
+    height:80vh;
+    top:10vh;
+    left:20vw;
+    width:60vw;
+    background: yellow;
+
+}
+#bottom{
+    height:10vh;
+    bottom:0;
+    right:0;
+    left:0;
+    background: lime;
+
+}

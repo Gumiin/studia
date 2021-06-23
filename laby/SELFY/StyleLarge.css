@@ -1,0 +1,112 @@
+    @media (min-width: 830px) {
+        #nav-small {
+            display: none;
+        }
+        #nav {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+            margin-bottom: -20px;
+            align-items: center;
+            float: right;
+            margin-top: 40px;
+            ;
+        }
+        #nav a {
+            font-size: 20px;
+            padding: 0.3em 1.2em;
+            border-radius: 3px;
+            transition: all 250ms ease-in-out;
+            font-weight: bolder;
+        }
+        #nav a:hover {
+            background-color: #404040;
+            color: white;
+        }
+        .nav-flex-el {
+            margin: 5px;
+        }
+        #nav .active {
+            background-color: #FF8000;
+            color: white;
+        }
+        .flexbox div {
+            padding: 10px;
+        }
+        .fb-33 {
+            width: 33.33%;
+        }
+        .fb-50 {
+            width: 50%;
+            margin: 1em 0;
+        }
+        .fb-51{
+             width: 50%;
+            margin: 1em 0;
+        }
+        .fb-50:hover{
+            opacity: 0.6;
+            transition: all 250ms ease-in-out;
+            cursor: pointer;
+            
+        }
+        .fb-100:hover{
+            
+            opacity: 0.6;
+            transition: all 250ms ease-in-out;
+            cursor: pointer;
+        }
+        .fb-66 {
+            max-width: 70%;
+        }
+        .fb-25 {
+            width: 25%;
+        }
+        .fb-75 {
+            width: 75%;
+        }
+        .right-aside {
+            float: right;
+            width: 35%;
+            border: 0px;
+            border-left: 1px inset #FFF;
+            padding-top: 0;
+            padding-left: 4%;
+            margin-top: 0;
+        }
+        .main-content {
+            float: left;
+            width: 65%;
+            padding-right: 5%;
+        }
+        .alone-img {
+            width: 100%;
+            border-width: 0px;
+        }
+        .alone-img:hover{
+            cursor: pointer;
+            opacity: 0.6;
+            transition: all 250ms ease-in-out;
+            
+            
+        }
+        img {
+            border-width: 25px;
+        }
+        .foot-right {
+            float: right;
+            width: 70%;
+            justify-content: flex-end;
+        }
+        .foot-left {
+            width: 30%;
+            justify-content: flex-start;
+            color: gray;
+        }
+        #head-icon-link {
+            float: left;
+            width: unset;
+            margin-right: -50px;
+        }
+    }
