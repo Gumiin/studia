@@ -96,7 +96,15 @@ hr{
     border: 0px;
     margin:0px;
 }
-
+.profil{
+max-height: 100%;
+max-width: 100%;
+}
+.profil:hover
+{
+    opacity: 0.2;
+    transition: all 250ms ease-in-out;
+}
 .tekst{
     text-align: center;
     max-width: 100%;
