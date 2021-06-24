@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Symulator procesora</title>
+</head>
+<body style="padding-left: 40%; padding-top: 10%; background-color:  lightblue; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" >
+    <div id='content' >
+        <div class='column'>
+            <textarea id='cmd' rows='6'></textarea>
+            <div id='bytes'>
+                <div>
+                    <h4>AH</h4>
+                    <input id='ah' value='0'>
+                </div>
+                <div>
+                    <h4>AL</h4>
+                    <input id='al' value='0'>
+                </div>
+                <div>
+                    <h4>BH</h4>
+                    <input id='bh' value='0'>
+                </div>
+                <div>
+                    <h4>BL</h4>
+                    <input id='bl' value='0'>
+                </div>
+                <div>
+                    <h4>CH</h4>
+                    <input id='ch' value='0'>
+                </div>
+                <div>
+                    <h4>CL</h4>
+                    <input id='cl' value='0'>
+                </div>
+                <div>
+                    <h4>DH</h4>
+                    <input id='dh' value='0'>
+                </div>
+                <div>
+                    <h4>DL</h4>
+                    <input id='dl' value='0'>
+                </div>
+            </div>
+        </div>
+        <div class='column'>
+            <button class='for_cmd' id='mov'>MOV</button>
+            <button class='for_cmd' id='movi'>MOVI</button>
+            <button class='for_cmd' id='xchg'>XCHG</button>
+            <button id='exe'>EXECUTE</button>
+            <button id='random'>FILL RANDOM</button>
+        </div>
+    </div>
+    <script src="plik.js"></script>
+</body>
+
+</html>
